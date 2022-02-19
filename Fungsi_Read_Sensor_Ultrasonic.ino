@@ -27,7 +27,7 @@ void loop() {
   //  tampilkanJarak();
 
   // baca nilai sensor ultrasonic
-  jarak1 = bacaSensorJarak(EchoPin2, TrigPin2);
+  jarak1 = bacaSensorJarak(EchoPin1, TrigPin1);
   jarak2 = bacaSensorJarak(EchoPin2, TrigPin2);
 
 }
